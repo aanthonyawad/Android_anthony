@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anthony.savingtofiles.MainActivity"
+    android:orientation="vertical">
+
+<RadioGroup
+    android:id="@+id/rg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="check a radio button and click save to save it to the file bro"/>
+
+    <RadioButton
+        android:id="@+id/rb1"
+        android:text="type me to get 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:id="@+id/rb2"
+        android:text="type me to get 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RadioGroup>
+    <Button
+        android:onClick="saveToFile"
+        android:text="click me to save to file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:onClick="appendToFile"
+        android:text="click me to append to file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="readFile"
+        android:text="click me to read from file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:onClick="deleteFile"
+        android:text="click me to Delete  file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
