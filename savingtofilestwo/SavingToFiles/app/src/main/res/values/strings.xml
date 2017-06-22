@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SavingToFiles</string>
+
+    <string-array name="countries">
+        <item> lebanon</item>
+        <item>russia</item>
+        <item>syria</item>
+        <item>jordan</item>
+        <item>uncle sam</item>
+        <item>serbia</item>
+    </string-array>
+
+
+
+
+
+
+</resources>
