@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+
+    <ImageView  android:layout_weight="25"
+        android:background="@mipmap/ic_launcher"
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <ImageButton   android:layout_weight="25"
+        android:id="@+id/ibut"
+        android:text="take picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button android:layout_weight="25"
+        android:id="@+id/but"
+        android:text="make walpaper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:text="go other activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="25"
+        android:id="@+id/bAct"
+        />
+
+    <TextView   android:id="@+id/textView"
+        android:text="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
