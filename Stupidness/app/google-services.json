@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "518259359963",
+    "project_id": "firebase-stupidnesss"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518259359963:android:3c1f5dd52375956b",
+        "android_client_info": {
+          "package_name": "com.example.anthony.stupidness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518259359963-68hjohl9dta744ji1s0gm7746hqbam1t.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "518259359963-4go8vi2ki2g13hsqli9gelel4bfcg91t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anthony.stupidness",
+            "certificate_hash": "246421c52dd9f92211a3cab8ceb205ca2648762e"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBED_8lmMcUXkv5a9XyBjNmLc0iIrMjOcc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

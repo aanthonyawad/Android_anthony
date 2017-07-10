@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+<ImageView
+    android:alpha="0.6"
+    android:scaleType="centerCrop"
+    android:src="@drawable/mountain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purplish"
+
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/appicon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        />
+
+    <TextView
+
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="1dp"
+        android:text="STUPIDNESS"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textStyle="bold|italic" />
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="Explore new Stupidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/buttonbackground"
+            android:layout_marginBottom="10dp"
+            android:text="LOG IN"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvGplus"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/buttonbackground"
+                android:layout_marginRight="5dp"
+                android:text="G+"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/tvFB"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/buttonbackground"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="FB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_alignParentLeft="true"
+                android:textSize="20dp"
+                android:alpha="0.8"
+                android:textColor="@android:color/white"
+                android:id="@+id/tvRegister"
+                android:text="Register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:textSize="20dp"
+                android:alpha="0.8"
+                android:textColor="@android:color/white"
+                android:id="@+id/tvForgotPass"
+                android:text="Forgot pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
